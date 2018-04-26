@@ -1,0 +1,11 @@
+*.pyc
+.settings/
+migrations/
+.settings/
+*.log
+.idea/
+live/a.txt
+*.sqlite3
+*.rdb
+*.db
+.DS_Store
