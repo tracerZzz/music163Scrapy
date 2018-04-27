@@ -3,9 +3,23 @@
 #### 框架
 
 1. scrapy
+
 2. scrapy-splash
+
 3. mongodb
+
 4. Python3
+
+5. docker 
+
+
+```Shell
+docer pull  scrapinghub/splash
+
+docker run -p  8050:8050 scrapinghub/splash
+```
+
+
 
 根据网易云音乐的歌单分类爬取，共爬取72类，歌单，总共六万多个歌单，爬取了歌单的封面连接，播放次数，歌单标题，歌单网页连接
 
